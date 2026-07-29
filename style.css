@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+p {
+  margin-top: 0;
+  color: #4b5563;
+}
+
+.repo-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.repo-item {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 16px;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.repo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.repo-item a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.repo-item a:hover {
+  color: #2563eb;
+}
+
+.repo-desc {
+  margin: 0.5rem 0 0;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.repo-meta {
+  margin-top: 0.75rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.error-message {
+  color: #b91c1c;
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 24px;
+}
